@@ -1,0 +1,577 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: aliceblue;
+}
+
+.main-container {
+  padding: 20px;
+  width: 100%;
+  height: 80vh;
+  margin-top: 50px;
+}
+
+/* Create Card */
+.create-card {
+  background-color: #fdf6ec;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.create-card p {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.create-card strong {
+  color: #6b4eff;
+}
+
+.create-post {
+  background-color: #fecd4d;
+  color: #000;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 9999px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* AI Content Card */
+.ai-content-card {
+  background-color: #fcd859;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 51%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.ai-content-card h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #2b2b2b;
+}
+. .arrow-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ffc107;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 5px;
+}
+.user-bubble,
+.ai-bubble {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+
+.user-bubble {
+  background-color: #ffffff;
+}
+
+.ai-bubble {
+  background-color: #f2f2f2;
+}
+
+.user-bubble p,
+.ai-bubble p {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.ai-bubble p {
+  color: #555;
+  font-size: 0.75rem;
+}
+
+.emoji {
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+/* Schedule Card */
+.schedule-card {
+  background-color: #f1edff;
+  border-radius: 10px;
+  width: 200px;
+  height: 390px;
+  color: plum;
+  position: absolute;
+  left: 690px;
+  top: 65px;
+  overflow: hidden;
+}
+.best {
+  background-color: white;
+  margin-left: 10px;
+}
+.best h1{
+  display: flex;
+  justify-content: space-between;
+ font-size: 20px;
+ color: #000;
+}
+ .best p{
+  color: #1a1919;
+ }
+
+
+.schedule-card h3 {
+  font-size: 18px;
+  margin-bottom: 16px;
+color: #000;
+}
+.schedule {
+
+}
+
+.bar-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 120px;
+  margin-bottom: 14px;
+  background-color:white;
+  margin-left: 10px;
+}
+.bar-chart p{
+  align-items:center;
+  color: #000;
+
+}
+
+.bar {
+  width: 10%;
+  background-color: #ccc;
+  border-radius: 10px;
+  font-size: 10px;
+  color:purple;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 2px;
+  justify-content: space-between;
+}
+
+.bar {
+  background-color: purple;
+  color: white;
+}
+.days {
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+margin-left: 10px;
+height: 30px;
+}
+.days h1 {
+  font-size: 20px;
+  color: #070505;
+}
+.description {
+  font-size: 15px;
+  color: #070505;
+  line-height: 1.4;
+  bottom: 50px;
+}
+
+/* Social Media Card */
+.socialmedia-card {
+  background-color: #3711f0;
+  color: white;
+  border-radius: 16px;
+  width: 400px;
+  text-align: center;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 70px;
+  left: 250px;
+}
+
+.socialmedia-card h2 {
+  font-size: 30px;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.socialmedia-card h2 span {
+  font-weight: bold;
+  color: #fecd4d;
+}
+
+.socialmedia-card h3 {
+  font-style: italic;
+}
+
+.stars {
+  font-size: 20px;
+  margin-bottom: 8px;
+  letter-spacing: 3px;
+  color: #e5b940;
+}
+
+.review-text {
+  font-size: 14px;
+  color: #f0eefe;
+}
+.manage-card{
+  width: 180px;
+  height: 160px;
+  background: rgba(204, 204, 200, 0.589);
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  border-radius: 5px;
+  padding: 10px 0px;;
+}
+.manage-card .row1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.manage-card .social-background.one{
+  background: white;
+  width: 70%;
+  border-radius: 50px;
+  padding: 5px;
+  display: flex;
+}
+
+.manage-card .social-background.two{
+  background: white;
+  width: 25%;
+  border-radius: 30px 0px 0px 30px;
+  padding: 5px;
+  display: flex;
+  overflow: hidden;
+}
+
+.manage-card .social-background  .icon-background{
+  background: gold;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.manage-card .social-background .icon-background i{
+  color: purple;
+  font-weight: 700;
+}
+.manage-card .social-background .our-socials{
+  margin-left: 10px;
+}
+.manage-card .social-background .our-socials h4{
+  font-size: 10px;
+}
+.manage-card .social-background .our-socials h5{
+  font-size: 8px;
+}
+.manage-card .content{
+  width: 100%;
+  padding: 10px  10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.maintain-card{
+  width: 180px;
+  height: 160px;
+  background: gold;
+  position: absolute;
+  top: 300px;
+  left: 470px;
+  border-radius: 5px;
+  padding: 10px 10px;;
+}
+.maintain-card h3{
+  font-size: 18px;
+  font-weight: 600;
+  word-spacing: 1px;
+}
+.maintain-card .calendar{
+  width: 100%;
+  height: 70px;
+  border-radius: 5px 5px  0 0;
+  background: white;
+  bottom: 0;
+  position: initial;
+}
+.maintain-card .calendar .calendar-header{
+  background: rgb(84, 4, 121);
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px;
+  align-items: center;
+}
+.maintain-card .calendar .calendar-header .month h3{
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+}
+.maintain-card .calendar .calendar-header .week h3{
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+}
+.calendar-content{
+  width: 100%;
+  padding: 15px 15px;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calendar-content .tick-background{
+  width: 20px;
+  height: 20px;;
+  background: rgb(84, 4, 121);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calendar-content .tick-background i{
+  color: white;
+}
+/* Faster Growth Box */
+.faster-box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 180px;
+  height: 160px;
+  background-color: #f0eefe;
+  border-radius: 5px;
+  position: absolute;
+  top: 490px;
+  left: 250px;
+}
+
+.faster-box h1 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+
+.faster-box p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.icon-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.icon-circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Growth Card */
+
+.growth-card{
+    width: 370px;
+    height: 160px;
+    background: rgb(84, 4, 121);;
+    position: absolute;;
+    left: 500px;
+    top: 500px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.analytics{
+    width: 100%;;
+    flex-basis: 45%;;
+    background: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.analytics .header-analytics{
+    width: 100%;
+}
+.analytics .header-analytics h4{
+    font-size: 10px;;
+    font-weight: 300;
+}
+.analytics .header-analytics .header-analytics-data{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+    padding: 0px 15px;
+}
+.analytics .header-analytics .header-analytics-data .header-analytics-data-percentage-details h5{
+    color: green;
+    background: rgb(160, 236, 160);
+    border-radius: 20px;
+    padding: 3px 3px;
+    font-size: 7px;
+}
+.analytics .analytics-graph{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    padding: 10px 10px;
+    position: relative;
+    justify-content: center;
+    /* background-color: black; */
+}
+.analytics .analytics-graph .first-analytics-data{
+    height: 35px;
+    width: 10px;
+    background: purple;
+    content: '';
+    bottom: 0;
+    left: 20px;
+    position: absolute;
+    border-radius: 10px;
+    top: 20px;
+}
+.analytics .analytics-graph .second-analytics-data{
+    height: 45px;
+    width: 10px;
+    background: purple;
+    content: '';
+    bottom: 0;
+    position: absolute;
+    border-radius: 10px;
+    left: 40px;
+    top: 10px;
+}
+.analytics .analytics-graph .third-analytics-data{
+    height: 60px;
+    width: 10px;
+    background: purple;
+    content: '';
+    bottom: 0;
+    position: absolute;
+    border-radius: 10px;
+    left: 60px;
+    top:-10px;
+}
+.analytics .analytics-graph .fourth-analytics-data{
+    height: 70px;
+    width: 10px;
+    background: purple;
+    content: '';
+    bottom: 0;
+    position: absolute;
+    border-radius: 10px;
+    left: 80px;
+    top: -20px;
+}
+.analytics .analytics-graph  .fifth-analytics-data{
+    height: 70px;
+    width: 10px;
+    background: purple;
+    content: '';
+    bottom: 0;
+    position: absolute;
+    border-radius: 10px;
+    left: 100px;
+    top: -20px;
+}
+.followers-gains-details{
+    width: 140px;
+    height: 45px;
+    background: lightgray;
+    border-radius: 20px;
+    padding: 5px 5px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.background-arrow-icon{
+    width: 30px;
+    height: 30px;
+    background-color: gold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.followers-gains-sub-section{
+    flex-basis: 70%;
+    width: 100%;
+
+}
+.followers-gains-sub-section h5{
+    font-size: 9px;
+    font-weight: 300;
+}
+.followers-gain-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.followers-gain-info h4{
+    font-size: 15px;
+}
+.followers-gain-info h6{
+    color: green;
+    background: rgb(160, 236, 160);
+    border-radius: 20px;
+    padding: 3px 3px;
+    font-size: 7px;
+}
+.analytics-info{
+    flex-basis: 50%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.analytics-info h2{
+    font-size: 23px;
+    color: white;
+    font-weight: 400;
+
+}
+.container1 {
+  width: 200px;
+  height: 100%;
+}
